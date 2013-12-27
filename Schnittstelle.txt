@@ -1,0 +1,27 @@
+Client --> Server:
+******************
+
+DISCONNECT:(nick)
+NICK:(nick)
+COLUMN:(0/1/.../6)
+CHAT:(text)
+REMATCH:(yes/no)
+
+
+
+
+
+server --> Client:
+******************
+
+SET:(xy) //x: Zeile, y: Spalte
+CURRENT:(nick)
+DENIED:  		//falls spaäte ungültig
+ERROR:(meldung)
+CHAT:(text)
+NICK1:(nick: Score)  //Nick oben
+NICK2:(nick: Score)  // Nick unten
+GAMEOVER:(meldung)
+RESET:
+END:
+
